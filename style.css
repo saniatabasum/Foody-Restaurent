@@ -37,8 +37,14 @@ ul li{
     height: 400px;
     justify-content: space-around;
 }
+#pic{
+    height: 300px;
+   
+    margin-top: 50px;
+    /* transition-timing-function: all 0.15s ease; */
+}
 #box{
-    border: solid red;
+    /* border: solid red; */
     height: 290px;
     width:490px ;
     margin-top: 50px;
@@ -58,10 +64,31 @@ p{
     border:solid;
     height: 400px ;
 }
+#menu{
+    height: 300px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+/* #menu:hover{
+    background-color: antiquewhite;
+} */
+.table{
+    text-align: center;
+}
 .aside{
     margin-top: 10px;
     border:solid;
-    height: 400px ;
+    height: 500px ;
+}
+.dishes{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+#dish{
+    height: 190px;
+    width: 250px;
 }
 .info{
     margin-top: 10px;
@@ -140,8 +167,16 @@ p{
     top:20px;
     font-size: 15px;
     width: 302px;
-    height: 150px;
+    height: 100px;
     margin-left: 2px;
+ }
+ #order{
+    position: relative;
+    float: right;
+    margin-left: 100px;
+    top: 50px;
+    height: 30px;
+    background-color: ;
  }
  .addon{
     /* border: solid red; */
@@ -160,8 +195,18 @@ p{
 .rating{
     margin-top: 10px;
     border:solid;
-    height: 400px ;
+    height: 200px ;
+}
+#view{
+    height: 120px;
+    width: 250px;
+    line-height: 150px;
+    /* margin-bottom: 50px; */
 }
 #text{
+    text-align: center;
+}
+p{
+    margin: 0;
     text-align: center;
 }
