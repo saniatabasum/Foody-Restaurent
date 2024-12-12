@@ -198,15 +198,15 @@ p{
     height: 200px ;
 }
 #view{
-    height: 120px;
+    height: 100px;
     width: 250px;
-    line-height: 150px;
+    /* line-height: 150px; */
     /* margin-bottom: 50px; */
 }
 #text{
     text-align: center;
 }
-p{
-    margin: 0;
+#cpy{
+    margin:0 0 50px 0;
     text-align: center;
 }
